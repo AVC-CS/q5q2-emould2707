@@ -10,7 +10,16 @@ int main()
     cout << "Enter your exponent: ";
     cin >> M;
 
+    int result = 1;
     cout << N << " to power number: ";
+    
+    for (int i = 0; i <= M; i++){
+        cout << result;
+        if (1 < M){
+            cout << ", ";
+        }
+        result *= N; 
+    }
 
     // TODO
 
